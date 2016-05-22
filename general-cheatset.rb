@@ -1,14 +1,13 @@
 cheatsheet do
-  title 'General Cheat Sheet' # Will be displayed by Dash in the docset list
+  title 'General Cheatset' # Will be displayed by Dash in the docset list
   docset_file_name 'general' # Used for the filename of the docset
-  keyword 'gcs' # Used as the initial search keyword (listed in Preferences > Docsets)
+  keyword 'generalcs' # Used as the initial search keyword (listed in Preferences > Docsets)
   # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
 
-  introduction 'My own general cheat sheet' # Optional, can contain Markdown or HTML
+  introduction 'My own general cheat sheet'
 
-  # A cheat sheet must consist of categories
   category do
-    id 'General' # Must be unique and is used as title of the category
+    id 'General'
 
     entry do
       command 'Cmd-Ctrl-F'

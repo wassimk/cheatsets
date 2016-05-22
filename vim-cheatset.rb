@@ -1,10 +1,10 @@
 cheatsheet do
-  title 'Vim Cheat Sheet' # Will be displayed by Dash in the docset list
+  title 'Vim Cheatset' # Will be displayed by Dash in the docset list
   docset_file_name 'vim' # Used for the filename of the docset
-  keyword 'vcs' # Used as the initial search keyword (listed in Preferences > Docsets)
+  keyword 'vimcs' # Used as the initial search keyword (listed in Preferences > Docsets)
   # resources 'resources_dir'  # An optional resources folder which can contain images or anything else
 
-  introduction 'My own Vim cheat sheet' # Optional, can contain Markdown or HTML
+  introduction 'My own Vim cheatset'
 
   category do
     id 'Commands'
