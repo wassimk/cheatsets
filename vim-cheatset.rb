@@ -173,7 +173,7 @@ cheatsheet do
       command 'Ctrl-t'
       command 'Ctrl-v'
       command 'Ctrl-x'
-      name 'Open selected file in new **t**ab, **v**erticle split or **s**plit'
+      name 'Open selected file in new **t**ab, **v**erticle split or horizontal (**x**) split'
     end
 
     entry do
