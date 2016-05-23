@@ -47,6 +47,20 @@ cheatsheet do
   end
 
   category do
+    id 'Hammerspoon'
+
+    entry do
+      name 'Make sure Hammerspoon is installed with custom `~/.hammersoon/init.lua` script'
+    end
+
+    entry do
+      command 'Ctrl-Alt-<arrow>'
+      name 'Resize window in direction of arrow by half of screen, 1/3 of scree and 2/3 of screen,
+            keep pushing to cycle'
+    end
+  end
+
+  category do
     id 'Mail'
 
     entry do
