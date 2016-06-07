@@ -10,13 +10,8 @@ cheatsheet do
     id 'Commands'
 
     entry do
-      command 'd'
-      name '**d**elete'
-    end
-
-    entry do
       command 'c'
-      name '**c**ange'
+      name '**c**hange'
     end
 
     entry do
@@ -302,17 +297,13 @@ cheatsheet do
 
     entry do
       command 'w'
-      name 'Move forward one (**w**)ord'
-    end
-
-    entry do
       command 'b'
-      name 'Move (**b**)ackward by one'
+      name 'Move forward or (**b**)ackward by one (**w**)ord.'
     end
 
     entry do
       command 'e'
-      name 'move forward to the (**e**)nd a word'
+      name 'Move forward to the (**e**)nd a word'
     end
   end
 
@@ -337,7 +328,7 @@ cheatsheet do
     end
 
     entry do
-      command ';'
+      command ','
       name 'repeat last `f`, `t`, `F`, or `T` command, but in opposite direction'
     end
   end
@@ -360,30 +351,28 @@ cheatsheet do
 
     entry do
       command '/<search_terms>'
-      name 'Search'
-    end
-
-    entry do
       command 'n'
       command 'N'
-      name 'Repeat last search forward or backwards'
+      name 'Search for terms, **n**ext result or previous **N** result'
     end
 
     entry do
       command 'C-u'
       command 'C-d'
-      name 'move (**u**)p or (**d**)own'
+      name 'Move (**u**)p or (**d**)own'
     end
 
     entry do
       command '<NN>G'
-      name '(**G**)o to line number NN'
+      command '<NN>j'
+      command '<NN>k'
+      name '(**G**)o to absolute line number. Down (**j**) or up (**k**) to relative line number.'
     end
 
     entry do
-      command 'G'
       command 'gg'
-      name 'Jump to bottom or top of file'
+      command 'G'
+      name 'Jump to the top or bottom or file/buffer'
     end
   end
 
