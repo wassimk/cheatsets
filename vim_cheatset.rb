@@ -377,6 +377,39 @@ cheatsheet do
   end
 
   category do
+    id 'Search and Replace'
+
+    entry do
+      command ':%s/foo/bar/g'
+      name 'Search and replace `foo` with `bar` in file'
+    end
+
+    entry do
+      command ':s/foo/bar/g'
+      name 'Search and replace `foo` with `bar` on current line'
+    end
+
+    entry do
+      command ':%s/foo/bar/gc'
+      name 'Search and replace `foo` with `bar` and ask for confirmation'
+    end
+
+     entry do
+       command ':%s/\<foo\>/bar/gc'
+       name 'Search and replace only exact word `foo` only'
+     end
+
+     entry do
+       command ":<,'>s/foo/bar/g"
+       name 'Search and replace current visual selection'
+     end
+
+     entry do
+       notes '[More detailed notes online...](http://vim.wikia.com/wiki/Search_and_replace)'
+     end
+  end
+  
+  category do
     id 'Opening Windows' # Must be unique and is used as title of the category
 
     entry do
