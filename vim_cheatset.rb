@@ -71,6 +71,16 @@ cheatsheet do
     end
 
     entry do
+      command 'gq'
+      name 'Wrap highlighted text'
+    end
+
+    entry do
+      command 'gq}'
+      name 'Wrap to end of next paragraph'
+    end
+
+    entry do
       notes "Further, all of these motion combinations can be used with other operators like `c` or
              `v` to perform those operations on the same text ranges.
 
